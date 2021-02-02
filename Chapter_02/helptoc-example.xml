@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding="utf-8"?>
+<toc version="2.0">
+<!-- First tocitem specifies top level page in Help browser Contents -->
+    <tocitem target="index.html">Recipes Toolbox
+        <!-- A Getting Started page is generally first -->
+        <tocitem target="getting_started.html" image="HelpIcon.GETTING_STARTED">
+            Getting Started
+            <tocitem target="requirements.html">System Requirements</tocitem>
+            <tocitem target="features.html">Features
+                <!-- TOC levels may include anchor IDs -->
+                <tocitem target="features.html#10187">Feature 1</tocitem>
+                <tocitem target="features.html#10193">Feature 2</tocitem>
+            </tocitem>
+        </tocitem>
+        <!-- There is a special icon for the User Guide -->
+        <tocitem target="guide_intro.html" 
+            image="HelpIcon.USER_GUIDE">Recipes User Guide
+            <tocitem target="setup.html">Setting Up</tocitem>
+            <tocitem target="data_processing.html">Processing Data</tocitem>
+            <tocitem target="verification.html">Verifying Outputs 
+                <tocitem target="test_failures.html">Handling Test Failures</tocitem>
+            </tocitem>
+        </tocitem>
+        <!-- The function reference is next with the FUNCTION icon -->
+        <!-- First item is page describing function categories, if any -->
+        <tocitem target="function_categories.html" 
+                 image="HelpIcon.FUNCTION">Function Reference
+            <tocitem target="function_categories.html#1">Double Integrator
+                <!-- Inside category, list the functions -->
+                <tocitem target="function_1.html">function_1</tocitem>
+                <tocitem target="function_2.html">function_2</tocitem>
+                <!-- ... -->
+            </tocitem>
+            <tocitem target="function_categories.html#2">Aircraft
+                <tocitem target="function_3.html">function_3</tocitem>
+                <tocitem target="function_4.html">function_4</tocitem>
+             </tocitem>
+            <tocitem target="function_categories.html#3">Spacecraft 
+                <!-- ... -->
+            </tocitem>
+        </tocitem>
+        <!-- Web links with the webicon.gif -->
+        <tocitem target="http://www.psatellite.com" 
+                 image="$toolbox/matlab/icons/webicon.gif">
+        Web Site (psatellite.com)
+        </tocitem>
+    </tocitem>
+</toc>

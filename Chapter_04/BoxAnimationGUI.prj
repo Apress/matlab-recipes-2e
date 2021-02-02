@@ -1,0 +1,69 @@
+<deployment-project plugin="plugin.apptool" plugin-version="1.0">
+  <configuration build-checksum="1003288319" file="/Users/Shared/svn/MATLABBooks/MATLABCookbook2/MATLAB/Chapter_04/BoxAnimationGUI.prj" location="/Users/Shared/svn/MATLABBooks/MATLABCookbook2/MATLAB/Chapter_04" name="BoxAnimationGUI" target="target.mlapps" target-name="Package App">
+    <param.appname>BoxAnimationGUI</param.appname>
+    <param.authnamewatermark>Stephanie Thomas and Michael Paluszek</param.authnamewatermark>
+    <param.email>info@psatellite.com</param.email>
+    <param.company>Princeton Satellite Systems</param.company>
+    <param.icon>${PROJECT_ROOT}/BoxAnimationGUI_resources/icon_24.png</param.icon>
+    <param.icons>
+      <file>${PROJECT_ROOT}/BoxAnimationGUI_resources/icon_48.png</file>
+      <file>${PROJECT_ROOT}/BoxAnimationGUI_resources/icon_24.png</file>
+      <file>${PROJECT_ROOT}/BoxAnimationGUI_resources/icon_16.png</file>
+    </param.icons>
+    <param.summary>Animate a box.</param.summary>
+    <param.description>Choose the pause duration for each step of the animation and run it.</param.description>
+    <param.screenshot>/Users/Shared/svn/Manuals/MATLABCookbook/Book/Images/Chapter_04/FinalGUIwPlot.png</param.screenshot>
+    <param.version>1.0</param.version>
+    <param.products.name>
+      <item>MATLAB</item>
+    </param.products.name>
+    <param.products.id>
+      <item>1</item>
+    </param.products.id>
+    <param.products.version>
+      <item>9.8</item>
+    </param.products.version>
+    <param.platforms />
+    <param.output>${PROJECT_ROOT}</param.output>
+    <param.guid>135632b4-a266-43f8-85ac-98da9bb19cd3</param.guid>
+    <unset>
+      <param.authnamewatermark />
+      <param.email />
+      <param.company />
+      <param.version />
+      <param.platforms />
+      <param.output />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}/BoxAnimationGUI.m</file>
+    </fileset.main>
+    <fileset.depfun>
+      <file>${PROJECT_ROOT}/BoxAnimationGUI.fig</file>
+    </fileset.depfun>
+    <fileset.resources />
+    <fileset.package />
+    <build-deliverables>
+      <file location="/Users/Shared/svn/MATLABBooks/MATLABCookbook2/MATLAB" name="Chapter_04" optional="false">/Users/Shared/svn/MATLABBooks/MATLABCookbook2/MATLAB/Chapter_04</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>/Applications/MATLAB_R2020a.app</root>
+      <toolboxes />
+    </matlab>
+    <platform>
+      <unix>true</unix>
+      <mac>true</mac>
+      <windows>false</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>10.13.6</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>maci64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
